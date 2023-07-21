@@ -16,3 +16,10 @@ git diff <branch1> <branch2>
 pull all changes from remote to local:
 (First checkout the required local branch)
 git pull origin master
+
+Add new file to local:
+git add <filename>
+
+commit file to local:
+git commit <new filename> -m "commit message"
+
