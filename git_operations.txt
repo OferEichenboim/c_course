@@ -23,3 +23,6 @@ git add <filename>
 commit file to local:
 git commit <new filename> -m "commit message"
 
+push file to remote branch:
+git push -u origin <remote branch name>
+
