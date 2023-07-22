@@ -1,0 +1,28 @@
+list all existed branches:
+git branch -r
+
+create new local branch:
+git branch <new local branch name>
+
+switch to a new branch:
+git checkout <new local branch name>
+
+delete local branch:
+git branch -d <branch to delete>
+
+compare 2 branches:
+git diff <branch1> <branch2>
+
+pull all changes from remote to local:
+(First checkout the required local branch)
+git pull origin master
+
+Add new file to local:
+git add <filename>
+
+commit file to local:
+git commit <new filename> -m "commit message"
+
+push file to remote branch:
+git push -u origin <remote branch name>
+
