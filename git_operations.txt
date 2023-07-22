@@ -1,3 +1,5 @@
+Branch commands:
+
 list all existed branches:
 git branch -r
 
@@ -16,6 +18,17 @@ git diff <branch1> <branch2>
 pull all changes from remote to local:
 (First checkout the required local branch)
 git pull origin master
+
+remove remote-tracking branches that no longer exist in local:
+git remote prune origin
+
+create new branch to track local branch:
+git push -u origin your_local_branch_name:desired_remote_branch_name
+if they have the same name choose option 2:
+git push -u origin your_local_branch_name
+
+
+File commands:
 
 Add new file to local:
 git add <filename>
